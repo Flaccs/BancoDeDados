@@ -10,6 +10,7 @@ PRIMARY KEY (id)
 INSERT INTO tb_categorias(tipo, tamanho) VALUE ("Salgada", "Média");
 SELECT *FROM tb_categorias;
 
+USE db_pizzaria_legal;
 CREATE TABLE tb_pizzas(
 id BIGINT AUTO_INCREMENT,
 sabor VARCHAR(255) NOT NULL,
